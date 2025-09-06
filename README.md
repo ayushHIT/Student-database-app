@@ -25,10 +25,12 @@ The project demonstrates the use of **JDBC** for database connectivity and SQL q
 
 ## Project structure
 ├── src/
-│ └── Database.java # Main CLI application
+│ 
+└── Database.java # Main CLI application
 │
 ├── lib/
-│ └── mysql-connector-j-8.0.33.jar # JDBC driver (add here manually)
+│ 
+└── mysql-connector-j-8.0.33.jar # JDBC driver (add here manually)
 │
 ├── studentDB.sql # Database schema setup script
 │
@@ -69,5 +71,6 @@ java -cp .;lib/mysql-connector-j-8.0.33.jar Database
 
 
 On Linux/Mac:
+
 
 java -cp .:lib/mysql-connector-j-8.0.33.jar Database
