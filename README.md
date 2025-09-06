@@ -41,11 +41,13 @@ The project demonstrates the use of **JDBC** for database connectivity and SQL q
 ## Setup Information
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/ayushHIT/StudentDB-Java.git
 cd StudentDB-Java
 
 ### 2. Set up the database
+
 
 Log in to MySQL and run:
 source studentdb.sql;
@@ -83,5 +85,6 @@ You can download the latest runnable JAR from StudentDBApp.jar page.
 Run it with:
 ```bash
 java -jar StudentDBApp.jar
+
 
 
