@@ -16,7 +16,7 @@ The project demonstrates the use of **JDBC** for database connectivity and SQL q
 ---
 
 ## Tech Stack
-- **Java 17+**
+- **Java 24+**
 - **JDBC (Java Database Connectivity)**
 - **MySQL 8.x**
 - **MySQL Connector/J (8.0.33)**
@@ -85,6 +85,7 @@ You can download the latest runnable JAR from StudentDBApp.jar page.
 Run it with:
 ```bash
 java -jar StudentDBApp.jar
+
 
 
 
