@@ -40,19 +40,19 @@ The project demonstrates the use of **JDBC** for database connectivity and SQL q
 
 ## Setup Information
 
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/ayushHIT/StudentDB-Java.git
 cd StudentDB-Java
 
-2. Set up the database
+### 2. Set up the database
 
 Log in to MySQL and run:
 source studentdb.sql;
 
 This creates the studentdb database with a students table.
 
-3. Compile the program
+### 3. Compile the program
 
 On Windows (PowerShell/CMD):
 
@@ -63,7 +63,7 @@ On Linux/Mac:
 
 javac -cp .:lib/mysql-connector-j-8.0.33.jar src/Database.java
 
-4. Run the program
+### 4. Run the program
 
 On Windows:
 
@@ -72,6 +72,16 @@ java -cp .;lib/mysql-connector-j-8.0.33.jar Database
 
 On Linux/Mac:
 
-
 java -cp .:lib/mysql-connector-j-8.0.33.jar Database
+
+---
+
+## Download & Run
+
+You can download the latest runnable JAR from StudentDBApp.jar page.
+
+Run it with:
+```bash
+java -jar StudentDBApp.jar
+
 
