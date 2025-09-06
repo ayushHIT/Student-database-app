@@ -80,11 +80,12 @@ java -cp .:lib/mysql-connector-j-8.0.33.jar Database
 
 ## Download & Run
 
-You can download the latest runnable JAR from StudentDBApp.jar page.
+You can download the latest runnable JAR from https://github.com/ayushHIT/Student-database-app/releases/tag/v1.0.0 page.
 
 Run it with:
 ```bash
 java -jar StudentDBApp.jar
+
 
 
 
